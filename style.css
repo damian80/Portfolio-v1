@@ -9,6 +9,11 @@ html {
 	/* font-size: 10px; */
 	font-family: 'Cairo Play', sans-serif;
 }
+.clearfix ::after {
+	content: '';
+	display: block;
+	clear: both;
+}
 header {
 	position: relative;
 	background-color: rgb(56, 77, 50);
@@ -52,5 +57,40 @@ header button:hover {
 	background-color: white;
 }
 section {
-	min-height: 100vh;
+	min-height: 30vh;
+}
+.features {
+	max-width: 1600px;
+	margin-top: 50px;
+	padding: 5%;
+	text-align: center;
+}
+.feature {
+	float: left;
+	width: 33%;
+	padding: 20px;
+}
+.features h1 {
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.features h2 {
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.features img {
+	width: 50%;
+	margin: 5px 0;
+	max-width: 375px;
+}
+.portfolio {
+	background-color: black;
+}
+.portfolio h1 {
+	color: white;
+	font-size: 28px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 20px;
 }
