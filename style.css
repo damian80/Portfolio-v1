@@ -94,3 +94,85 @@ section {
 	text-align: center;
 	padding: 0 20px;
 }
+.portfolio .web img {
+	width: 100%;
+	display: block;
+}
+.portfolio .about {
+	color: white;
+	font-weight: normal;
+	padding: 10px 20px;
+	text-align-last: left;
+}
+.portfolio .about h2 {
+	font-size: 18px;
+	border-bottom: 2px solid white;
+	margin-bottom: 12px;
+	padding-bottom: 6px;
+	text-indent: 20px;
+}
+.portfolio .about p {
+	font-size: 12px;
+}
+.portfolio .project:nth-of-type(odd) {
+	background-color: orange;
+}
+.portfolio .project:nth-of-type(even) {
+	background-color: deepskyblue;
+}
+.contact {
+	background-color: #000;
+	padding: 30px 20px;
+}
+.contact h1 {
+	font-size: 26px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: white;
+	text-align: center;
+}
+.contact .wrap {
+	padding-top: 20px;
+}
+.contact input,
+.contact button,
+.contact textarea {
+	width: 100%;
+	margin-bottom: 25px;
+	font-size: 12px;
+	padding: 5px;
+}
+.contact input {
+	height: 36px;
+}
+.contact textarea {
+	height: 120px;
+}
+.contact button {
+	font-size: 14px;
+	line-height: 40px;
+	background-color: #000;
+	color: white;
+	border: 2px solid white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.contact .socials {
+	padding-top: 30px;
+}
+.contact .social {
+	padding: 10px 0;
+	color: white;
+}
+.contact .social img {
+	float: left;
+}
+.contact .social span {
+	line-height: 72px;
+	padding-left: 20px;
+}
+
+.contact button:hover {
+	color: black;
+	background-color: #fff;
+}
